@@ -91,7 +91,7 @@ RTGS/
 ## 🔗 Related Projects
 
 ### PhotoSLAM RTGS Implementation
-For a real-time Gaussian Splatting implementation based on Photo-SLAM, please check out:
+For a RTGS-3DGS SLAM implementation based on Photo-SLAM, please check out:
 - [PhotoSLAM RTGS Implementation](https://github.com/Nemo0412/PhotoRTGS.git)
 
 ## 🙏 Acknowledgements
