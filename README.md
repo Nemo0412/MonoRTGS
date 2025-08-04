@@ -7,7 +7,7 @@ A real-time Gaussian Splatting implementation for SLAM systems, building upon th
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Nemo0412/RTGS.git
+git clone https://github.com/Nemo0412/MonoRTGS.git
 cd MonoRTGS
 ```
 
