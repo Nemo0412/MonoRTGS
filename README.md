@@ -1,4 +1,4 @@
-# RTGS: Real-Time Gaussian Splatting for SLAM
+# RTGS: Real-Time 3D Gaussian Splatting SLAM via Multi-Level Redundancy Reduction
 
 A real-time Gaussian Splatting implementation for SLAM systems, building upon the excellent work of MonoGS and Photo-SLAM.
 
