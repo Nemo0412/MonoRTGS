@@ -88,6 +88,12 @@ RTGS/
 └── data/                    # Dataset directory
 ```
 
+## 🔗 Related Projects
+
+### PhotoSLAM RTGS Implementation
+For a real-time Gaussian Splatting implementation based on Photo-SLAM, please check out:
+- [PhotoSLAM RTGS Implementation](https://github.com/Nemo0412/PhotoRTGS.git)
+
 ## 🙏 Acknowledgements
 
 This project builds upon the excellent work of the authors of **MonoGS** and **Photo-SLAM**.  
