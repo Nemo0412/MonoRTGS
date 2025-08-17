@@ -1,0 +1,24 @@
+name: MonoGS2
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - plyfile=0.8.1
+  - tqdm
+  - glfw
+  - PyOpenGL
+  - PyGLM
+  - munch
+  - trimesh
+  - rich
+  - ruff
+  - pip:
+      - MonoGS/submodules/simple-knn
+      - MonoGS/submodules/diff-gaussian-rasterization
+      - evo==1.11.0
+      - wandb
+      - lpips
+      - torchmetrics
+      - imgviz
