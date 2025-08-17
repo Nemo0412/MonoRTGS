@@ -13,6 +13,10 @@ cd MonoRTGS
 
 ### 2. Setup the environment
 
+> **Environment Note**  
+> - `environment.yml` is for x86 architecture.  
+> - `environment_arch.yml` is for arm64 architecture (e.g., ONX).
+
 ```bash
 conda env create -f environment.yml
 conda activate MonoRTGS
@@ -86,6 +90,15 @@ RTGS/
 ├── configs/                 # Configuration files
 ├── scripts/                 # Download scripts
 └── data/                    # Dataset directory
+```
+
+## 🐳 Docker Installation & Usage
+
+You can also run this project directly using Docker, without manual environment setup.
+
+```bash
+docker pull mugen0412/monortgs:cuda12.1
+docker run --rm -it --gpus all mugen0412/monortgs:cuda12.1 bash
 ```
 
 ## 🔗 Related Projects
